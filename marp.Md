@@ -14,7 +14,6 @@ style: |
     padding-right: 40px;
     padding-bottom: 20px;
   }
-  
   section.demo-slide {
     text-align: center;
     display: flex !important;
@@ -24,13 +23,13 @@ style: |
   section.demo-slide h1 {
     font-size: 3em !important;
   }
-  
   section.center-middle {
     display: flex !important;
     flex-direction: column;
     justify-content: center;
     text-align: center;
   }
+
 ---
 
 <!-- _class: lead -->
@@ -38,6 +37,7 @@ style: |
 
 ## チームこってり地獄会
 ---
+
 <!-- _class: lead -->
 # 課題
 現在の主要な情報源であるYouTubeなどの動画コンテンツは、「動画映え」を優先した非現実的で生活感の薄い部屋の事例が多くを占めています。
@@ -53,15 +53,25 @@ style: |
 
 ---
 <!-- _class: lead -->
-# 基本機能
+# 想定基本機能
 - 画像投稿
 - プロフィール編集（「洗濯物の山の王様」等の肩書き設定）
 - コミュニティ機能
   - 5段階のスター評価システム（★4.2など）
-  - コメント機能（共感・応援）
-  - 「プロフィールを編集」ボタンによる手軽なカスタマイズ
+  - コメント機能
+  - 「プロフィールを編集」
 
 ---
+
+# 現在の基本機能
+- googleログイン
+- プロフィール機能 ニックネーム、自己紹介、アイコン
+- 汚部屋投稿機能
+
+の3つを実装しています。
+
+---
+
 <!-- _class: demo-slide -->
 
 # デモ
@@ -69,17 +79,16 @@ style: |
 ---
 
 <!-- _class: lead -->
-# 技術スタック (Tech Stack)
+# 技術スタック
 ## ■ Frontend
 - React (TypeScript)
-- Tailwind CSS
 
 ## ■ Backend
 - Spring Boot (Kotlin)
 
 ## ■ DB / Infra
 - PostgreSQL
-- Docker Compose
+- Docker
 
 ---
 <!-- _class: center-middle -->
